@@ -4,42 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Webpack Starter Kit</title>
+    <title>goit-js-hw-11</title>
 
-    <!-- Don't forget to delete this style tag. -->
-    <style>
-      body {
-        min-height: 100vh;
-        margin: 0;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+    <body>
+      <!-- COLOR-SWITCH -->
+      <div class="btn-container">
+        <button type="button" data-action="start">Start</button>
+        <button type="button" data-action="stop">Stop</button>
+      </div>
+      <!-- ============================= -->
+      <!-- TIMER -->
+      <div class="timer" id="timer-1">
+        <div class="field">
+          <span class="value" data-value="days">00</span>
+          <span class="label">Days</span>
+        </div>
 
-      .intro {
-        text-align: center;
-      }
+        <div class="field">
+          <span class="value" data-value="hours">00</span>
+          <span class="label">Hours</span>
+        </div>
 
-      .intro h1 {
-        margin-top: 0;
-        font-weight: 500;
-        font-size: 40px;
-      }
+        <div class="field">
+          <span class="value" data-value="mins">00</span>
+          <span class="label">Minutes</span>
+        </div>
 
-      .intro img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-      }
-    </style>
+        <div class="field">
+          <span class="value" data-value="secs">00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+
+      <!-- ============================= -->
+    </body>
   </head>
-
-  <body>
-    <article class="intro">
-      <h1>Webpack starter kit</h1>
-
-      <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
-    </article>
-  </body>
 </html>
